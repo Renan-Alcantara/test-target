@@ -5,6 +5,8 @@
 # IMPORTANTE:
 # Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 print("Este programa identifica se o numero faz parte da sequencia de Fibonacci.\n\n")
 n = int(input(f"Insira um número: "))
 print("-"*50)
@@ -19,6 +21,6 @@ while f3 < n:
     f2 = f3
 
 if f3 == n:
-    print(f"O Numero {n} FAZ parte da sequencia Fibonacci.")
+    print(f"O Numero {n} FAZ parte da sequencia Fibonacci.\n")
 else:
-    print(f"O Numero {n} NAO FAZ parte da sequencia Fibonacci.")
+    print(f"O Numero {n} NÃO FAZ parte da sequencia Fibonacci.\n")
